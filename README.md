@@ -22,4 +22,8 @@ O objetivo desse projeto é implementar uma hierarquia de processos, utilizando 
 </ul>
 
 ####IMPLEMENTAÇÃO
-A implementação foi feita usando a linguagem c++ no sistema operacional Ubuntu. 
+A implementação foi feita utilizando a linguagem C++ no sistema operacional Ubuntu.<br>
+_Se desejar implementar no Windows altere a função **fork()** por **CreateProcess()**_<br><br>
+<a href="https://github.com/francleide/forks_T2/blob/master/Trabalho_2.cpp">Código do Projeto</a>
+
+####VÍDEO
