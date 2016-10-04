@@ -1,3 +1,25 @@
+/* O programa segue as seguintes instruições:
+*Implementar a hierarquia de processos
+*Utilizar a chamada de sistema "fork"
+*Quando um processo é escalonado pelo
+*SO, ele deve imprimir o seu PID e o PPID.
+*1s corresponde a 1 ano
+*Pai tem o filho 01 aos 18 anos
+*Filho 01 finaliza aos 5 anos
+*Pai tem o filho 02 aos 20 anos
+*Filho 02 tem o Neto 01 aos 15 anos
+*Filho 02 finaliza aos 20 anos
+*Neto 01 finaliza aos 5 anos
+*Pai tem o filho 03 aos 21 anos
+*Filho 03 tem o neto 02 aos 3 anos
+*Filho 03 finaliza aos 5 anos
+*Neto 02 finaliza aos 10 anos
+*Pai finaliza aos 33 anos
+*
+*A saída do sistema segue a seguinte formatação:
+*<Nome do processo>(<PID do processo>), <idade do processor> | <PID(PPID) do pai do processo> 
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -22,7 +44,7 @@ pid=fork();
 				}
 				sleep(1);
 				filho1++;
-				printf("FILHO1 %d, meu pai é %d, tenho %i anos\n", getpid(),getppid(),filho1);
+				printf("FILHO1(%d),tenho %i ano(s) | Meu pai %d\n", getpid(),filho1, getppid());
 					if(filho1==5){
 						printf("FILHO1 morreu com %i anos\n",filho1);
 						exit(0);
