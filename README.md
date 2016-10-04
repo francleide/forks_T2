@@ -22,8 +22,10 @@ O objetivo desse projeto é implementar uma hierarquia de processos, utilizando 
 </ul>
 
 ####IMPLEMENTAÇÃO
-A implementação foi feita utilizando a linguagem C++ no sistema operacional Ubuntu.<br>
-_Se desejar implementar no Windows altere a função **fork()** por **CreateProcess()**_<br><br>
+<p>A implementação foi feita utilizando a linguagem C++ no sistema operacional Ubuntu.<br>
+O programa irá exibir o ciclo de vida de cada processo definido pelas instruções, citadas anteriormente. Cada ciclo de vida começa em 0 (zero) e é exibida a mensagem: "[Nome do processo] nasceu". E depois quando a contagem começa em 1 (um) o /continua..../ <br>
+</p>
+
 <a href="https://github.com/francleide/forks_T2/blob/master/Trabalho_2.cpp">Código do Projeto</a>
 
 ####VÍDEO
