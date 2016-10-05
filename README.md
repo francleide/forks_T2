@@ -1,6 +1,9 @@
 # forks_T2
 **Projeto desenvolvido por alunos de Tecnologia da Informação da UFRN para a disciplina de Sistemas Operacionais**
 
+####PROFESSOR
+Ivanovitch Medeiros Dantas da Silva 
+
 ####AUTORES: 
 Francleide Simão e José Victor Andrade
 
