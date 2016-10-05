@@ -26,7 +26,14 @@ O objetivo desse projeto é implementar uma hierarquia de processos, utilizando 
 O programa irá exibir o ciclo de vida de cada processo definido pelas instruções, citadas anteriormente. Cada ciclo de vida começa em 0 (zero) e é exibida a mensagem: "[Nome do processo] nasceu!". Quando a contagem começa em 1 (um) a mensagem: "[Nome do processo]([Numero do processo]), tenho x ano(s) | Meu Pai [Numero do processo pai]". 
 <br> *Obs: processo pai é o processo que gera o processo em execução.
 </p>
-
+_Se desejar implementar no Windows altere a função **fork()** por **CreateProcess()**_<br><br>
 <a href="https://github.com/francleide/forks_T2/blob/master/Trabalho_2.cpp">Código do Projeto</a>
+
+######EXECUÇÃO
+Para executar abra o terminal do linux. Navegue até a pasta em que está o arquivo Trabalho_2.cpp e execute o código:<br>
+<code>g++ Trabalho_2.cpp - o [um nome]</code><br>
+pressione ENTER e depois execute:<br>
+<code>./[um nome]</code> <br>
+pressione ENTER e o programa será executado.
 
 ####VÍDEO
