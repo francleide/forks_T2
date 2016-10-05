@@ -55,9 +55,12 @@ pid=fork();
 		default: /*processo Pai*/
 		while(1){
 			pai++;
+			if(pai ==0){
+				printf("PAI nasceu!\n");
+			}
+			sleep(1);
 			printf("PAI(%d), tenho %i ano(s) | Meu pai %d \n", getpid(),pai, getppid());
 			
-			sleep(1);
 			switch(pai){
 				case 33:
 					printf("PAI morreu com %i anos\n",pai);
