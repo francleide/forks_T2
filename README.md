@@ -23,7 +23,7 @@ O objetivo desse projeto é implementar uma hierarquia de processos, utilizando 
 
 ####IMPLEMENTAÇÃO
 <p>A implementação foi feita utilizando a linguagem C++ no sistema operacional Ubuntu.<br>
-O programa irá exibir o ciclo de vida de cada processo definido pelas instruções, citadas anteriormente. Cada ciclo de vida começa em 0 (zero) e é exibida a mensagem: "[Nome do processo] nasceu!". Quando a contagem começa em 1 (um) a mensagem: "[Nome do processo]([Numero do processo]), tenho x ano(s) | Meu Pai [Numero do processo pai]". 
+O programa irá exibir o ciclo de vida de cada processo definido pelas instruções, citadas anteriormente. Cada ciclo de vida começa em 0 (zero) e é exibida a mensagem: "[Nome do processo] nasceu!". A partir de 1 (um) é exibida a seguinte mensagem: "[Nome do processo]([Numero do processo]), tenho x ano(s) | Meu Pai [Numero do processo pai]". 
 <br> *Obs: processo pai é o processo que gera o processo em execução.
 </p>
 _Se desejar implementar no Windows altere a função **fork()** por **CreateProcess()**_<br><br>
