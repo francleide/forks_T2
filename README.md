@@ -1,4 +1,5 @@
 # forks_T2
+Implementação de herança com fork.<br>
 **Projeto desenvolvido por alunos de Tecnologia da Informação da UFRN para a disciplina de Sistemas Operacionais**
 
 ####PROFESSOR
@@ -8,7 +9,7 @@ Ivanovitch Medeiros Dantas da Silva
 Francleide Simão e José Victor Andrade
 
 ####OBJETIVO
-O objetivo desse projeto é implementar uma hierarquia de processos, utilizando fork, seguindo as seguintes instruções:
+O objetivo desse projeto é implementar uma hierarquia de processos, utilizando a função fork, seguindo as seguintes instruções:
 <ul>
 <li>1s corresponde a 1 ano</li>
 <li>Pai tem o filho 01 aos 18 anos</li>
