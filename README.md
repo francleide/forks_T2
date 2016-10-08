@@ -38,6 +38,10 @@ Para executar abra o terminal do linux. Navegue até a pasta em que está o arqu
 <code>g++ Trabalho_2.cpp - o [um nome]</code><br>
 pressione ENTER e depois execute:<br>
 <code>./[um nome]</code> <br>
-pressione ENTER e o programa será executado.
+pressione ENTER e o programa será executado.<br>
+Para pará-lo antes do tempo pressione:<br>
+<code>Ctrl + z</code><br>
+ou digite em outro terminal: <br>
+<code>kill -9 [numero do processo que deseja "matar"]</code>
 
 ####VÍDEO
